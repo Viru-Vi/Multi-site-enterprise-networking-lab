@@ -41,15 +41,15 @@ VLAN 99 provides switch management at each site. VLAN 10 and VLAN 99 reuse the s
 
 ## VLSM address plan
 
-| Network | VLAN | Required usable addresses | Subnet | Mask | Usable range | Broadcast | Gateway |
-|---|---|---:|---|---|---|---|---|
-| HQ staff | 10 | 50 | 192.168.10.0/26 | 255.255.255.192 | .1–.62 | .63 | .1 |
-| HQ admin | 20 | 20 | 192.168.10.64/27 | 255.255.255.224 | .65–.94 | .95 | .65 |
-| Branch staff | 10 | 25 | 192.168.10.96/27 | 255.255.255.224 | .97–.126 | .127 | .97 |
-| HQ servers | 30 | 10 | 192.168.10.128/28 | 255.255.255.240 | .129–.142 | .143 | .129 |
-| HQ management | 99 | 5 | 192.168.10.144/29 | 255.255.255.248 | .145–.150 | .151 | .145 |
-| Branch management | 99 | 5 | 192.168.10.152/29 | 255.255.255.248 | .153–.158 | .159 | .153 |
-| Router WAN link | None | 2 | 192.168.10.160/30 | 255.255.255.252 | .161–.162 | .163 | None |
+| Network | VLAN | Required usable addresses 
+|---|---|---:|
+| HQ staff | 10 | 50 |
+| HQ admin | 20 | 20 |
+| Branch staff | 10 | 25 |
+| HQ servers | 30 | 10 |
+| HQ management | 99 | 5 |
+| Branch management | 99 | 5 |
+| Router WAN link | None | 2 |
 
 All abbreviated addresses begin with 192.168.10. Reserve .164–.255 for future allocation. Allocate largest subnets first. Usable capacity is 2^(32-prefix) minus 2: /26 = 62, /27 = 30, /28 = 14, /29 = 6, /30 = 2.
 
