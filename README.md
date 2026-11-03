@@ -96,3 +96,14 @@ Save the .pkt file at milestones. Capture show vlan brief, show interfaces trunk
 ## Reference
 
 Cisco inter-VLAN routing with an external router: https://www.cisco.com/c/en/us/support/docs/lan-switching/inter-vlan-routing/14976-50.html
+
+## Result Outputs
+
+### Setting up interfaces in packet tracer 
+<img width="346" height="495" alt="Screenshot 2026-11-03 at 10 52 47 pm" src="https://github.com/user-attachments/assets/07b3a98b-24e0-40d7-81b5-41636aa86b25" />
+
+### VLSM
+Address Pool 192.168.10.0/24 
+| Network | Network address | Subnet Mask | Host Address Range| Broadcast Address|
+| ------- | --------------- | ----------- | ----------------- | ---------------- |
+| HQ Staff (50) | 192.168.10.0 | 255.255.255.192| 192.168.10.1 - 192.168.10.62 | 192.168.10.63 |
