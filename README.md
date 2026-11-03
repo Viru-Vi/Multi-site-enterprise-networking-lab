@@ -77,9 +77,9 @@ Use Packet Tracer automatic cable selection. If your device model uses different
 - SW1 VLAN 99 SVI = .146/29; SW2 VLAN 99 SVI = .147/29; both use default gateway .145.
 - SW3 VLAN 99 SVI = .154/29; default gateway .153.
 - PC1 = .10/26; PC2 = .11/26; gateway .1.
-- PC3 = .70/27; PC4 = .71/27; gateway .65.
+- PC3 = .100/27; PC4 = .101/27; gateway .97.
 - SRV1 = .130/28; gateway .129.
-- PC5 = .100/27; PC6 = .101/27; gateway .97.
+- PC5 = .70/27; PC6 = .71/27; gateway .65.
 
 ## Build stages and acceptance criteria
 
