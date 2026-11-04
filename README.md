@@ -102,6 +102,25 @@ Cisco inter-VLAN routing with an external router: https://www.cisco.com/c/en/us/
 ### Setting up interfaces in packet tracer 
 <img width="346" height="495" alt="Screenshot 2026-11-03 at 10 52 47 pm" src="https://github.com/user-attachments/assets/07b3a98b-24e0-40d7-81b5-41636aa86b25" />
 
+### Melbourne office HQ IP configuration
+
+**PC1**
+<img width="672" height="322" alt="Screenshot 2026-11-04 at 11 50 10 am" src="https://github.com/user-attachments/assets/499490a8-4f0e-4260-8fad-c9761e9b8a5e" />
+
+**PC2**
+<img width="673" height="323" alt="Screenshot 2026-11-04 at 11 50 30 am" src="https://github.com/user-attachments/assets/b6517198-ad9d-4987-a477-7fa3272489c1" />
+
+**PC3**
+<img width="676" height="317" alt="Screenshot 2026-11-04 at 11 50 55 am" src="https://github.com/user-attachments/assets/5e0f29c9-3260-4cc9-95a8-6b09daecadb9" />
+
+**PC4**
+<img width="677" height="322" alt="Screenshot 2026-11-04 at 12 02 19 pm" src="https://github.com/user-attachments/assets/9095afdc-23ed-4261-92df-80b15df7ec53" />
+
+**Server1**
+<img width="675" height="278" alt="Screenshot 2026-11-04 at 12 04 33 pm" src="https://github.com/user-attachments/assets/3ad047b1-423f-4cb8-91c6-044f3e3c7458" />
+
+
+
 ### VLSM
 Address Pool 192.168.10.0/24 
 | Network | Network address | Subnet Mask | Host Address Range| Broadcast Address|
